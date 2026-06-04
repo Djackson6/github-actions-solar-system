@@ -63,7 +63,7 @@ jobs:
             name: code-coverage-result
             path: coverage
             retention-days: 5 
-    Docker:
+    docker:
       permissions: 
         packages: write
       runs-on: ubuntu-latest
